@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta de Servicios para ACW GROUP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <div id="slide-1" class="slide active">
+        <div class="slide-content no-bg">
+            <h1 class="text-6xl md:text-8xl font-bold text-slate-900 leading-tight">Oferta de Servicios</h1>
+            <h2 class="mt-6 text-3xl md:text-5xl text-slate-600">Para ACW GROUP del Ingeniero Andrés Castro Agudelo</h2>
+            <p class="mt-10 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed text-slate-700">
+                Mi enfoque es claro: impulsar el crecimiento de ACW GROUP. Como su partner y aliado estratégico en ingeniería, mi compromiso es aportar procesos sólidos y escalables que generen valor, sostenibilidad y mayor capacidad operativa a su organización.
+            </p>
+            <div class="mt-16 flex justify-center items-center gap-12 text-6xl text-blue-700">
+                <span>💻</span> <span>🌐</span> <span>🛡️</span> <span>📈</span> </div>
+        </div>
+    </div>
+
+    <div id="slide-2" class="slide">
+        <div class="slide-content">
+            <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-10">Nuestros Servicios Clave</h3>
+            <p class="mb-8 text-lg text-slate-700 max-w-2xl mx-auto">
+                Ofrecemos un portafolio integral diseñado para fortalecer la base tecnológica de ACW GROUP y asegurar su operación.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div>
+                    <h4 class="font-bold text-2xl text-blue-600 mb-3">Sistemas de Cómputo y Red LAN</h4>
+                    <ul class="text-slate-700 space-y-2 text-base">
+                        <li>• Mantenimiento preventivo (Software y Hardware)</li>
+                        <li>• Mantenimiento de infraestructura (RED y CCTV)</li>
+                        <li>• Instalación de equipos e infraestructura de red</li>
+                        <li>• Resolución de incidencias</li>
+                        <li>• Soporte presencial y remoto</li>
+                        <li>• Diagnóstico de averías</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-2xl text-blue-600 mb-3">Seguridad de la Información (SGI)</h4>
+                    <ul class="text-slate-700 space-y-2 text-base">
+                        <li>• Administración y gestión de hosting, cuentas de correo y sistemas de terceros</li>
+                        <li>• Administración y gestión de almacenamiento, accesos y usuarios (Red LAN)</li>
+                        <li>• Identificación de vulnerabilidades</li>
+                        <li>• Gestión de seguridad de la información</li>
+                        <li>• Asistencia y soporte SGI</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-2xl text-blue-600 mb-3">Consultoría de Ingeniería Transversal</h4>
+                    <ul class="text-slate-700 space-y-2 text-base">
+                        <li>• Sistemas de cómputo y cableado estructurado</li>
+                        <li>• Implementación y desarrollo de software</li>
+                        <li>• Optimización y mejora de procesos</li>
+                        <li>• Actualización tecnológica</li>
+                        <li>• Asesoría/Consultoría para Nuevos Desarrollos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div id="slide-3" class="slide">
+    <div class="slide-content max-w-full lg:max-w-screen-xl">
+        <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-12">Nuestros Planes de Servicio</h3>
+        <p class="mb-8 text-lg text-slate-700 max-w-3xl mx-auto">
+            Hemos diseñado tres planes para ACW GROUP, pensando en la escalabilidad y las necesidades específicas de su operación.
+        </p>
+       <div id="plansTableContainer" class="plans-table-container rounded-lg shadow-md border border-slate-200" style="max-height: 60vh; overflow-y: auto;">
+            <table class="plans-table w-full text-left text-slate-700">
+                <thead class="bg-blue-600 text-white uppercase">
+                    <tr>
+                        <th scope="col" class="py-2 px-3 rounded-tl-lg">Categoría</th>
+                        <th scope="col" class="py-2 px-3">Subcategoría</th>
+                        <th scope="col" class="py-2 px-3">
+                            Nivel 1
+                            <div class="font-normal text-xs mt-1">$400.000 COP</div>
+                            <div class="font-normal text-xs">($97.56 USD*)</div>
+                        </th>
+                        <th scope="col" class="py-2 px-3">
+                            Nivel 2
+                            <div class="font-normal text-xs mt-1">$700.000 COP</div>
+                            <div class="font-normal text-xs">($170.73 USD*)</div>
+                        </th>
+                        <th scope="col" class="py-2 px-3 rounded-tr-lg">
+                            Nivel 3
+                            <div class="font-normal text-xs mt-1">$1.200.000 COP</div>
+                            <div class="font-normal text-xs">($292.68 USD*)</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sistemas de computo y red LAN -->
+                    <tr>
+                        <td rowspan="8" class="category-cell" style="background-color: rgb(252, 218, 218);">Sistemas de computo y red LAN</td>
+                        <td>Mantenimiento preventivo Software</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Mantenimiento preventivo Hardware</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Mantenimiento de infraestructura (RED + CCV)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Instalación equipos e infraestructura de red</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Resolución de incidencias</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Soporte presencial (previo agendamiento)</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Soporte remoto (Lunes a Viernes)</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Diagnostico averías</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+
+                    <td></td>
+
+                    <!-- Seguridad de la información -->
+                    <tr>
+                        <td rowspan="8" class="category-cell" style="background-color: rgb(218, 253, 218);">Seguridad de la información</td>
+                        <td>Administración y gestión hosting (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Administración y gestión cuentas de correo (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Administración y gestión sistemas de 3eros (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Administración y gestión almacenamiento (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Administración y gestión accesos red LAN (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Administración y gestión usuarios red LAN (SGI)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Gestionar seguridad de la información</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Asistencia y soporte (Lunes a Viernes)</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+
+                     <td></td>
+
+                    <!-- Consultoría de ingeniería transversal -->
+                    <tr>
+                        <td rowspan="4" class="category-cell" style="background-color: rgb(244, 244, 214);">Consultoría de ingeniería transversal</td>
+                        <td>Sistemas de computo y cableado estructurado</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Implantación y desarrollo de software</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Optimización y mejora de procesos</td>
+                        <td class="text-center"><span class="icon-status dash">-</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Actualización tecnológica</td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                        <td class="text-center"><span class="icon-status check">✓</span></td>
+                    </tr>
+
+                    <!-- Horario -->
+                    <tr>
+                        <td rowspan="1" class="category-cell">Horario</td>
+                        <td>Asistencia / soporte / Consultoria</td>
+                        <td class="text-center text-sm">10:00 a 14:00 (4 H) / Flexible x 4 H</td>
+                        <td class="text-center text-sm">10:00 a 15:00 (5 H) / Flexible x 5 H</td>
+                        <td class="text-center text-sm">Flexible x 7 H + 2 Horas fuera de horario</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+    <div id="slide-4" class="slide">
+        <div class="slide-content">
+            <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-10">Enfoque de Cada Suscripción</h3>
+            <p class="mt-6 text-lg md:text-xl max-w-2xl mx-auto mb-12">
+                Cada nivel de servicio ha sido diseñado para abordar necesidades específicas de ACW GROUP, escalando desde el soporte fundamental hasta una colaboración estratégica integral.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="subscription-focus-card">
+                    <span class="subscription-focus-icon">🛠️</span>
+                    <h4 class="subscription-focus-title">Nivel 1: Soporte Operativo Esencial</h4>
+                    <p class="subscription-focus-description">
+                        Este nivel está enfocado en el soporte y la prestación de servicios de mantenimiento para sus computadores, impresoras, red local y sistema de cableado estructurado. Incluye soporte para incidencias en sistemas, resolución de dudas y asistencia directa al equipo local de ACW GROUP.
+                    </p>
+                </div>
+                <div class="subscription-focus-card">
+                    <span class="subscription-focus-icon">🛡️</span>
+                    <h4 class="subscription-focus-title">Nivel 2: Gestión y Seguridad de la Información</h4>
+                    <p class="subscription-focus-description">
+                        Este enfoque se dirige a la gestión y administración de la seguridad de la información (SGI). Tendrán un soporte constante y una administración proactiva de su información y bases de datos, inventario de cuentas por perfil, gestión de la seguridad de la información y control de accesos a nivel de red LAN.
+                    </p>
+                </div>
+                <div class="subscription-focus-card">
+                    <span class="subscription-focus-icon">🌐</span>
+                    <h4 class="subscription-focus-title">Nivel 3: Partner Estratégico 360°</h4>
+                    <p class="subscription-focus-description">
+                        Un servicio integral que incluye todos los servicios anteriores, pero no se limita a estos. Este nivel ofrece más tiempo dedicado a desarrollar y optimizar los sistemas de ACW GROUP. Proporciona un enfoque de partner estratégico que colabora activamente con los intereses de ACW, optimizando incluso procesos necesarios para una mayor eficiencia operativa desde la perspectiva tecnológica.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="slide-5" class="slide" style="margin-top: -30px;">
+        <div class="slide-content">
+            <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-10">Flexibilidad y Personalización</h3>
+            <p class="mt-6 text-lg md:text-xl max-w-2xl mx-auto mb-12">
+                Nuestra oferta es flexible a cambios y repropuestas, diseñada para adaptarse perfectamente a las necesidades y objetivos específicos de ACW GROUP.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto flex-section-grid">
+                <div class="flex-card">
+                    <span class="flex-card-icon">✨</span>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3">Servicios a la Medida</h4>
+                    <p class="text-lg text-slate-700">
+                        Podemos customizar o añadir servicios adicionales a su plan de suscripción, según sus intereses y requerimientos específicos.
+                    </p>
+                </div>
+                <div class="flex-card">
+                    <span class="flex-card-icon">🚀</span>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3">Soluciones por Proyecto</h4>
+                    <p class="text-lg text-slate-700">
+                        Ofrecemos la gestión de proyectos específicos para necesidades puntuales, asegurando una solución a la medida de ACW GROUP.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-12 text-left max-w-2xl mx-auto">
+                <h4 class="text-3xl font-bold text-slate-900 mb-4">Ejemplos de Proyectos Customizables:</h4>
+                <ul class="list-disc list-inside text-lg text-slate-700 space-y-2">
+                    <li><strong>Soluciones SGI Avanzadas:</strong> Implementación de reportes e informes (estadísticos, financieros, operativos) diseñados a la medida de sus necesidades.</li>
+                    <li><strong>Desarrollo de Software a la Medida:</strong> Creación de soluciones personalizadas como páginas web, sistemas de bases de datos, aplicaciones específicas, etc.</li>
+                </ul>
+                <p class="text-lg text-slate-700 mt-6">Mi compromiso como Andrés Castro es construir soluciones que realmente impulsen el negocio de ACW GROUP y le den un valor excepcional.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="slide-7" class="slide">
+        <div class="slide-content">
+            <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-12">¡Hablemos de su Crecimiento!</h3>
+            <p class="mt-4 text-slate-600 text-lg mb-12">Contácteme para una asesoría gratuita y sin compromiso. Juntos, descubramos el plan perfecto para ACW GROUP.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6 text-xl">
+                <div class="font-medium">
+                    <strong>Andrés Castro Agudelo</strong>
+                </div>
+                <div class="font-medium">
+                    <strong>Teléfono:</strong> <a href="tel:+573108344858" class="text-blue-600 hover:underline">+57 3108344858</a>
+                </div>
+                <div class="font-medium">
+                   <strong>Email:</strong> <a href="mailto:acastroagudelo1990@gmail.com" class="text-blue-600 hover:underline">acastroagudelo1990@gmail.com</a>
+                </div>
+                 <div class="font-medium">
+                    <strong>Web:</strong> <a href="#" class="text-blue-600 hover:underline">[Tu Página Web]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="prevBtn" class="nav-button hidden">‹</button>
+    <button id="nextBtn" class="nav-button">›</button>
+    <div class="page-indicator" id="pageIndicator">1 / 7</div>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
